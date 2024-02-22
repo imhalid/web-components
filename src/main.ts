@@ -1,6 +1,6 @@
 import "./style.css";
-import { setupCounter } from "./counter.ts";
 import { page } from "./page.ts";
 import "./components/hello-world.ts";
+import "./components/pop-up-info-box.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = page;
